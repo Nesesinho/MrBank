@@ -4,11 +4,20 @@ body {
 }
 
 header {
+    background-color: #353535;
+    height: 4rem;
+}
+
+.header__box {
+    margin: auto;
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #353535;
     align-items: center;
-    height: 4rem;
+    max-width: calc(1200px + 1rem);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
 }
 
 h1 {
