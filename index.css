@@ -81,12 +81,12 @@ nav {
 
 .credit-card-box {
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
-    justify-content: space-between;
+    justify-content: space-around;
     left: 50%;
     transform: translateX(-50%);
-    width: 95%;
-    height: 25rem;
+    width: 90%;
     background-color: #2b2b2b;
     border: 10px solid #353535;
 }
@@ -99,6 +99,9 @@ nav {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 27px;
-    text-align: justify;
+    font-size:50px;
+    font-weight: 700;
+    text-align: left;
+    max-width: 50rem;
+    min-width: 2rem;
 }
