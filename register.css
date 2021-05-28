@@ -71,10 +71,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20rem;
+    width: 25rem;
     height: auto;
     background-color: #3c6e71;
     color: white;
+    border: 15px solid #353535;
 }
 
 .register-box__form {
@@ -86,6 +87,10 @@ nav {
     width: 100%;
 }
 
+.register-box__form__input {
+    padding: .5rem;
+}
+
 .register-box__form__button {
     position: relative;
     left: 50%;
@@ -94,6 +99,8 @@ nav {
     padding: .9rem 0;
     background-color: #353535;
     cursor: pointer;
+    border-color: transparent;
+    color: white;
     font-size: 20px;
 }
 
